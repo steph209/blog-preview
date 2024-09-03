@@ -8,15 +8,32 @@
 
 
 /* =============================================================================
-#TYPOGRAPHY
+#GENERAL
 ============================================================================= */
- body {
-    font-family: "Figtree", Arial, Helvetica, sans-serif;
- }
- h1 {
-    font-weight: 800;
- }
+body {
+    background-color: hsl(47, 88%, 63%);
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100svh;
+
+    font-family: "Figtree", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+main {
+    background-color: white;
+
+    width: 250px;
+    border-radius: 15px;
+    /* height: 80%; */
+
+    padding: 10px;
+}
 
 /* =============================================================================
 #CONTENT
@@ -27,7 +44,7 @@ picture {
 
     border-radius: 10px;
     /* height: 300px; */
-    margin: 10px;
+    /* margin: 10px; */
 
     overflow: hidden;
 
@@ -41,24 +58,4 @@ picture {
         object-position: center;
     }
 
-
-body {
-    background-color: hsl(47, 88%, 63%);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 100svh;
-}
-
-main {
-    background-color: white;
-
-    width: 325px;
-    border-radius: 15px;
-    /* height: 80%; */
-
-    padding: 10px;
-}
 
