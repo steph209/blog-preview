@@ -6,6 +6,19 @@
     font-weight: 500;
 }
 
+/* =============================================================================
+#TYPOGRAPHY
+============================================================================= */
+h2 {
+    font-family: "Figtree", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    /* font-size: 20px; */
+}
+
+p {
+    font-size: 16px;
+}
 
 /* =============================================================================
 #GENERAL
@@ -30,6 +43,8 @@ main {
 
     width: 250px;
     border-radius: 15px;
+    border: solid;
+    border-width: 1px;
     /* height: 80%; */
 
     padding: 10px;
@@ -56,6 +71,21 @@ picture {
 
         object-fit: cover;
         object-position: center;
+    }
+
+.learn {
+    background-color: hsl(47, 88%, 63%);
+    
+    padding: 10px;
+    width: 70px;
+
+    border-radius: 5px;
+
+}
+
+    .learn p {
+        text-align: center;
+        font-weight: bold;
     }
 
 
