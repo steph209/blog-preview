@@ -14,6 +14,8 @@ h1 {
     font-weight: 800;
     font-style: normal;
     font-size: 20px;
+
+    color: hsl(0, 0%, 7%);
 }
 
 p {
@@ -39,13 +41,13 @@ body {
 }
 
 main {
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
 
     width: 300px;
     border-radius: 15px;
     border: solid;
     border-width: 1px;
-    /* height: 80%; */
+    box-shadow: 10px 10px black;
 
     padding: 20px;
 }
@@ -92,14 +94,31 @@ main {
 
 .description {
     margin-top: 16px;
+    color: hsl(0, 0%, 42%);
 }
 
 .publisher {
-    /* display: flex; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
     margin-top: 16px;
 }
 
-.publisher p {
-    /* text-align: center; */
-}
+    .publisher picture {
+        display: block;
+
+        /* width: 10%; */
+        /* background-color: red; */
+    }
+
+    .publisher img {
+        width: 70%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .publisher p {
+        color: hsl(0, 0%, 7%);
+        font-weight: 800;
+    }
